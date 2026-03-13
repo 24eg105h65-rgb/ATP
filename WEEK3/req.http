@@ -1,0 +1,99 @@
+
+# GET http://localhost:7000/product-api/products
+
+# ###
+# GET http://localhost:7000/product-api/products/69abb231a25656f4fa0f84a9
+
+# ###
+# POST http://localhost:7000/product-api/products
+# Content-Type: application/json
+
+# {
+#     "productId":1,
+#     "productName":"air jordans",
+#     "price":15000,
+#     "brand":"nike"
+# }
+
+# ###
+# PUT http://localhost:7000/product-api/products/69abb2c7a25656f4fa0f84ad
+# Content-Type: application/json
+
+# {
+#     "productId":1,
+#     "productName":"air jordans",
+#     "price":18000,
+#     "brand":"nike"
+# }
+
+# ###
+# //Delete a userby ID
+# DELETE http://localhost:7000/product-api/products/69abb2c7a25656f4fa0f84ad
+
+
+
+
+
+
+
+
+
+
+GET http://localhost:6000/user-api/users
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJldmFudGhAZ21haWwuY29tIiwiaWF0IjoxNzcyODc4NjIzLCJleHAiOjE3NzI4Nzg3MjN9.kBnrHrrqASlSM1WRdPyn0I9oo89PBIWzWKV0qoEGd64; Path=/; HttpOnly; SameSite=Lax
+
+###
+GET http://localhost:6000/user-api/users/
+
+###
+POST http://localhost:6000/user-api/users
+Content-Type: application/json
+
+{
+    "username":"ayush",
+    "password":"ayush",
+    "email":"ayush@gmail.com",
+     "age":21
+}
+
+###
+PUT http://localhost:6000/user-api/users
+Content-Type: application/json
+
+{
+   "username":"revant",
+    "password":"revanth",
+    "email":"revanth@gmail.com",
+     "age":21
+}
+
+###
+//Delete a userby ID
+DELETE http://localhost:6000/user-api/users/69abf2ade4775e442c08aea9
+
+
+###
+POST http://localhost:6000/user-api/auth
+Content-Type: application/json
+
+{
+    "email":"eshwar@gmail.com",
+    "password":"eshwar"
+}
+
+
+
+### add product to user cart 
+PUT http://localhost:6000/user-api/cart/product-id/69b25f285acad77c59ed976f
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVzaHdhckBnbWFpbC5jb20iLCJpYXQiOjE3NzMyOTc5NzQsImV4cCI6MTc3MzMwMTU3NH0.TsQ622H8BLWyQij4k30zR76ISZ3bm7Qj-CIVXGufETg; Path=/; HttpOnly; SameSite=Lax
+
+###
+POST http://localhost:6000/product-api/products
+Content-Type: application/json
+
+ {
+     "productId":2,
+     "productName":" jordans",
+     "price":25000,
+     "brand":"nike"
+ }
