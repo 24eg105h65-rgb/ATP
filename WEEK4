@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage.html</title>
+</head>
+<body>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ducimus eaque a
+     reprehenderit eius! Nulla, praesentium a esse accusantium quam dignissimos,
+      magni provident inventore consequatur ab laudantium iusto reprehenderit 
+      veritatis aut aperiam quae. Nesciunt inventore commodi nemo autem soluta
+       cum quas aspernatur tenetur nihil cupiditate, earum architecto ut nam? Ad!</p>
+<h1>Web Pages are Exciting to do</h1> 
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Enim repellat quasi rem alias aliquid fugit repellendus
+    , doloremque exercitationem reiciendis. Laborum accusantium
+     voluptatem libero atque magni dolores reprehenderit dicta deserunt perspiciatis?</p>
+<ul>
+    <li>asdf</li>
+    <li>sfdf</li>
+    <li>fsdfgf</li>
+    <li>dsafgr</li>
+    <li>fsfsafwdfs</li>
+</ul>
+
+</body>
+</html> 
